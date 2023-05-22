@@ -1,0 +1,104 @@
+
+@media only screen and (min-width: 768px) {
+    .my-profile {
+        width: 46px;
+        height: 46px;
+        position: relative;
+        right: 42px;
+        bottom: 30px;
+        display: inline-block;
+    }
+
+    .my-profile-title {
+        position: fixed;
+        padding: .4rem .8rem;
+        width: 220px;
+        text-align: center;
+        font-size: .75rem;
+        font-weight: bold;
+        bottom: 30px;
+        right: 20px;
+        border-radius: 7px;
+        color: white;
+        background-color: var(--desaturated-blue);
+        visibility: hidden;
+        opacity: 0;
+        transition: all .7s ease-in-out;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+
+    .my-profile-title a {
+        color: var(--Soft-violet);
+    }
+
+    .my-picture {
+        border-radius: 50%;
+        width: 46px;
+        height: 46px;
+        border: 2px solid #bb30e4;
+        position: fixed;
+        bottom: 30px;
+        right: 20px;
+        transition: all .7s ease;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+
+    .my-profile:hover .my-profile-title {
+        opacity: 1;
+        visibility: visible;
+        right: 83px;
+        transition: all .7s ease-in-out;
+    }
+
+    .my-profile-title::before {
+        content: "";
+        position: absolute;
+        background-color: var(--desaturated-blue);
+        right: -6px;
+        top: 14px;
+        width: 18px;
+        height: 18px;
+        transform: rotate(45deg);
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .my-profile {
+        position: relative;
+        width: 320px;
+        height: 60px;
+        margin-top: 5px;
+    }
+
+    .my-picture {
+        position: absolute;
+        width: 46px;
+        height: 46px;
+        border: 2px solid #bb30e4;
+        border-radius: 50%;
+        right: 25px;
+        top: 0;
+    }
+
+    .my-profile-title {
+        position: absolute;
+        right: 80px;
+        padding: .4rem .8rem;
+        width: 215px;
+        color: white;
+        top: 0;
+        text-align: center;
+        font-size: .75rem;
+        line-height: 1.1rem;
+        font-weight: bold;
+        border-radius: 7px;
+        background-color: var(--desaturated-blue);
+        transition: all .7s ease-in-out;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+
+    .my-profile-title a {
+        color: var(--Soft-violet);
+    }
+
+}
