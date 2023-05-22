@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-- screenshot desktop
+- #### screenshot desktop
 
 ![screenshot desktop](./screenshots/Screenshot%20-desktop.png)
 
 ***
-- screenshot mobile
+- #### screenshot mobile
 ![screenshot mobile](./screenshots/Screenshot%20-mobile.png)
 
 ***
