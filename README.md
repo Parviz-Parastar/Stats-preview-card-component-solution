@@ -23,13 +23,20 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+- screenshot desktop
 
+![screenshot desktop](./screenshots/Screenshot%20-desktop.png)
+
+***
+- screenshot mobile
+![screenshot mobile](./screenshots/Screenshot%20-mobile.png)
+
+***
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Parviz-Parastar/Stats-preview-card-component-solution)
+- Live Site URL: [Add live site URL here](https://parviz-parastar.github.io/Stats-preview-card-component-solution/)
 
 ## My process
 
@@ -54,6 +61,5 @@ Users should be able to:
 - Twitter - [@ParastarParviz](https://www.twitter.com/ParastarParviz)
 
 
-
 ## Acknowledgments
-
+  I am very grateful to the management of the frontend mentor site and all those who give me feedback in completing and improving this challenge.👏
